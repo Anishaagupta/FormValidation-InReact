@@ -20,7 +20,7 @@ class App extends React.Component {
   };
 
   handleButtonClick = event => {
-    event.preventDefault();
+    
     const { name, email, password } = this.state;
     if (!(name === '' && email === '' && password === '')) {
       if (name.length > 3 && name.length < 20) {
